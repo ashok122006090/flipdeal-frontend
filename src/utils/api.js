@@ -1,6 +1,6 @@
 import axios from 'axios';
-
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'http://65.1.133.60:8080';
+//const BASE_URL = 'http://localhost:8080';
 
 // Function to fetch products without promotions (if needed)
 export const fetchProducts = async () => {
